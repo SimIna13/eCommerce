@@ -1,0 +1,92 @@
+/* Header styles */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.logo .brand-icon {
+    /* Add styles for the brand icon */
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('');
+    background-size: cover;
+    margin-right: 5px;
+}
+#osf{
+    color: darkblue;
+    font-size: large;
+}
+#academy{
+    color:green;
+    font-size: small;
+}
+
+.navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.user-icons {
+    display: flex;
+    align-items: center;
+}
+
+.user-icons a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+}
+
+.login-icon:before {
+    /* Add your login icon styles using font icons */
+}
+
+.wishlist-icon:before {
+    /* Add your wishlist icon styles using font icons */
+}
+.wishlist-count {
+    /* Add styles for the wishlist count */
+}
+
+.mini-cart-icon:before {
+    /* Add your mini-cart icon styles using font icons */
+}
+
+.cart-count {
+    /* Add styles for the cart count */
+}
+
+/* Login Pop-up styles */
+.login-popup {
+    /* Add styles for the login pop-up */
+}
