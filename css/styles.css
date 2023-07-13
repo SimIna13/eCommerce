@@ -1,4 +1,32 @@
-/* Header styles */
+/* Common styles for all screen sizes */
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+  }
+  #left-footer{
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    display:grid;
+    justify-content:space-evenly ;
+    align-items:flex-start;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .social-links a {
+    margin:auto ;
+  }
+  
+
+/* Styles for screens bigger than 1280px */
+@media (min-width: 1280px) {
+    /* Header styles */
 header {
     display: flex;
     align-items: center;
@@ -90,26 +118,14 @@ header {
 .login-popup {
     /* Add styles for the login pop-up */
 }
-
-footer {
-    background-color: #f0f0f0;
-    padding: 10px;
-    text-align: center;
-  }
-  #left-footer{
-    background-color: #f0f0f0;
-    padding: 10px;
-    text-align: center;
-    display:grid;
-    justify-content:space-evenly ;
-    align-items:flex-start;
-  }
-  .footer-content {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
   }
   
-  .social-links a {
-    margin:auto ;
+  /* Styles for screens between 768px and 1280px */
+  @media (min-width: 768px) and (max-width: 1279px) {
+    
+  }
+  
+  /* Styles for screens between 320px and 768px */
+  @media (max-width: 767px) {
+    
   }
